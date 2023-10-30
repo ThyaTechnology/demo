@@ -1,0 +1,82 @@
+[
+    {
+        "uuid": "78443b2d-6d55-4e39-ab2a-a2df060174c2",
+        "name": "Yolo v5n coco 128",
+        "type": "coco128",
+        "path": "data/yolov5n_coco128.onnx",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "uuid": "e0e441f8-b056-470a-914b-be06fddd785e",
+        "name": "Yolo v5n striga",
+        "type": "striga",
+        "path": "data/yolov5n_striga.onnx",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "uuid": "9b41fce2-8d63-48df-9640-512e672a4918",
+        "name": "Yolo v5s coco 128",
+        "type": "coco128",
+        "path": "data/yolov5s_coco128.onnx",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "uuid": "7227def4-00ff-45ce-a8ce-308358ca3683",
+        "name": "Yolo v5s striga",
+        "type": "striga",
+        "path": "data/yolov5s_striga.onnx",
+        "width": 64,
+        "height": 64
+    },
+    {
+        "uuid": "5c7d2f4b-744c-4913-b766-a3f84f09f1d9",
+        "name": "Yolo v8n coco 128",
+        "type": "coco128",
+        "path": "data/yolov8n_coco128.onnx",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "uuid": "e2887077-105e-44f3-b51d-bb262d775f35",
+        "name": "Yolo v8n coco 128 256",
+        "type": "coco128",
+        "path": "data/yolov8n_coco128_256.onnx",
+        "width": 256,
+        "height": 256
+    },
+    {
+        "uuid": "ed11967c-2e89-4ff8-8b16-9c07a04cd593",
+        "name": "Yolo v8n striga",
+        "type": "striga",
+        "path": "data/yolov8n_striga.onnx",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "uuid": "c2fb2417-f8b8-4ce4-bc86-4b98b856c0b5",
+        "name": "Yolo v8n striga 256",
+        "type": "striga",
+        "path": "data/yolov8n_striga_256.onnx",
+        "width": 256,
+        "height": 256
+    },
+    {
+        "uuid": "a5b6d4df-20db-4f86-bfbc-6d5b38f2f11d",
+        "name": "Yolo v8s coco 128",
+        "type": "coco128",
+        "path": "data/yolov8s_coco128.onnx",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "uuid": "6da6d9e9-f900-4bbb-8c79-8e644fc5ece3",
+        "name": "Yolo v8s striga",
+        "type": "striga",
+        "path": "data/yolov8s_striga.onnx",
+        "width": 640,
+        "height": 640
+    }
+]
