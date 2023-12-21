@@ -5,7 +5,8 @@
         "type": "coco128",
         "path": "data/yolov5n_coco128.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "e0e441f8-b056-470a-914b-be06fddd785e",
@@ -13,7 +14,8 @@
         "type": "striga",
         "path": "data/yolov5n_striga.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "9b41fce2-8d63-48df-9640-512e672a4918",
@@ -21,7 +23,8 @@
         "type": "coco128",
         "path": "data/yolov5s_coco128.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "7227def4-00ff-45ce-a8ce-308358ca3683",
@@ -29,7 +32,8 @@
         "type": "striga",
         "path": "data/yolov5s_striga.onnx",
         "width": 64,
-        "height": 64
+        "height": 64,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "5c7d2f4b-744c-4913-b766-a3f84f09f1d9",
@@ -37,7 +41,8 @@
         "type": "coco128",
         "path": "data/yolov8n_coco128.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "e2887077-105e-44f3-b51d-bb262d775f35",
@@ -45,7 +50,8 @@
         "type": "coco128",
         "path": "data/yolov8n_coco128_256.onnx",
         "width": 256,
-        "height": 256
+        "height": 256,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "ed11967c-2e89-4ff8-8b16-9c07a04cd593",
@@ -53,7 +59,8 @@
         "type": "striga",
         "path": "data/yolov8n_striga.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "c2fb2417-f8b8-4ce4-bc86-4b98b856c0b5",
@@ -61,7 +68,8 @@
         "type": "striga",
         "path": "data/yolov8n_striga_256.onnx",
         "width": 256,
-        "height": 256
+        "height": 256,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "a5b6d4df-20db-4f86-bfbc-6d5b38f2f11d",
@@ -69,7 +77,8 @@
         "type": "coco128",
         "path": "data/yolov8s_coco128.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
     },
     {
         "uuid": "6da6d9e9-f900-4bbb-8c79-8e644fc5ece3",
@@ -77,6 +86,61 @@
         "type": "striga",
         "path": "data/yolov8s_striga.onnx",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "postProcessing": "Legacy"
+    },
+    {
+        "uuid": "d76a9a8e-4657-42da-ab7c-322fd0acfadd",
+        "name": "Yolo v8n coco 640 (built-in NMS)",
+        "type": "coco128",
+        "path": "data/yolov8n_coco_640.nms.onnx",
+        "width": 640,
+        "height": 640,
+        "postProcessing": "Built-in NMS"
+    },
+    {
+        "uuid": "5efa9ac7-3b00-4446-a24e-c330bbad40bf",
+        "name": "Yolo v8n striga 256 (built-in NMS)",
+        "type": "striga",
+        "path": "data/yolov8n_striga_256.nms.onnx",
+        "width": 256,
+        "height": 256,
+        "postProcessing": "Built-in NMS"
+    },
+    {
+        "uuid": "abef8749-c3ed-4de4-9037-ef4fafdab406",
+        "name": "Yolo v8n striga 320 (built-in NMS)",
+        "type": "striga",
+        "path": "data/yolov8n_striga_320.nms.onnx",
+        "width": 320,
+        "height": 320,
+        "postProcessing": "Built-in NMS"
+    },
+    {
+        "uuid": "9a7cd781-aeed-412d-81a4-1ad34740eb3c",
+        "name": "Yolo v8n striga 480 (built-in NMS)",
+        "type": "striga",
+        "path": "data/yolov8n_striga_480.nms.onnx",
+        "width": 480,
+        "height": 480,
+        "postProcessing": "Built-in NMS"
+    },
+    {
+        "uuid": "0502a796-d960-4908-838d-0b57530249aa",
+        "name": "Yolo v8n striga 640 (built-in NMS)",
+        "type": "striga",
+        "path": "data/yolov8n_striga_640.nms.onnx",
+        "width": 640,
+        "height": 640,
+        "postProcessing": "Built-in NMS"
+    },
+    {
+        "uuid": "655d9afe-ce59-42ea-bfba-d46178ffac54",
+        "name": "Yolo v8n striga 960 (built-in NMS)",
+        "type": "striga",
+        "path": "data/yolov8n_striga_960.nms.onnx",
+        "width": 960,
+        "height": 960,
+        "postProcessing": "Built-in NMS"
     }
 ]
