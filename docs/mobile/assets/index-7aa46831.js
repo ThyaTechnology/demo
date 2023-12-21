@@ -53,7 +53,7 @@ and limitations under the License.
  * @license
  * Copyright 2021 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */var n;((n=window.HTMLSlotElement)===null||n===void 0?void 0:n.prototype.assignedElements)!=null;var __defProp$l=Object.defineProperty,__getOwnPropDesc$l=Object.getOwnPropertyDescriptor,__decorateClass$l=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$l(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$l(F,W,q),q};let Avatar=class extends s{constructor(){super(...arguments),this.isMenuOpen=!1}render(){return x`
+ */var n;((n=window.HTMLSlotElement)===null||n===void 0?void 0:n.prototype.assignedElements)!=null;var __defProp$m=Object.defineProperty,__getOwnPropDesc$m=Object.getOwnPropertyDescriptor,__decorateClass$m=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$m(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$m(F,W,q),q};let Avatar=class extends s{constructor(){super(...arguments),this.isMenuOpen=!1}render(){return x`
             ${this.renderIcon()}
             ${this.renderMenu()}
         `}renderIcon(){var it,F;return this.picture?x`
@@ -136,7 +136,7 @@ and limitations under the License.
         a:focus {
             background: #DEE2E6;
         }
-    `;__decorateClass$l([n$1({type:String,attribute:"first-name"})],Avatar.prototype,"firstName",2);__decorateClass$l([n$1({type:String,attribute:"last-name"})],Avatar.prototype,"lastName",2);__decorateClass$l([n$1({type:String,attribute:!0})],Avatar.prototype,"picture",2);__decorateClass$l([t()],Avatar.prototype,"isMenuOpen",2);Avatar=__decorateClass$l([e$1("wli-avatar")],Avatar);var __defProp$k=Object.defineProperty,__getOwnPropDesc$k=Object.getOwnPropertyDescriptor,__decorateClass$k=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$k(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$k(F,W,q),q};let Box=class extends s{constructor(){super(...arguments),this.top=0,this.left=0,this.width=0,this.height=0}render(){return x`
+    `;__decorateClass$m([n$1({type:String,attribute:"first-name"})],Avatar.prototype,"firstName",2);__decorateClass$m([n$1({type:String,attribute:"last-name"})],Avatar.prototype,"lastName",2);__decorateClass$m([n$1({type:String,attribute:!0})],Avatar.prototype,"picture",2);__decorateClass$m([t()],Avatar.prototype,"isMenuOpen",2);Avatar=__decorateClass$m([e$1("wli-avatar")],Avatar);var __defProp$l=Object.defineProperty,__getOwnPropDesc$l=Object.getOwnPropertyDescriptor,__decorateClass$l=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$l(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$l(F,W,q),q};let Box=class extends s{constructor(){super(...arguments),this.top=0,this.left=0,this.width=0,this.height=0}render(){return x`
             <div
                 class="wrapper"
                 style="top: ${this.top-24}px; left: ${this.left}px;"
@@ -162,7 +162,7 @@ and limitations under the License.
         .box {
             border: 2px solid white;
         }
-    `;__decorateClass$k([n$1()],Box.prototype,"name",2);__decorateClass$k([n$1({type:Number})],Box.prototype,"top",2);__decorateClass$k([n$1({type:Number})],Box.prototype,"left",2);__decorateClass$k([n$1({type:Number})],Box.prototype,"width",2);__decorateClass$k([n$1({type:Number})],Box.prototype,"height",2);Box=__decorateClass$k([e$1("wli-box")],Box);var __defProp$j=Object.defineProperty,__getOwnPropDesc$j=Object.getOwnPropertyDescriptor,__decorateClass$j=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$j(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$j(F,W,q),q};let Button=class extends s{render(){return x`
+    `;__decorateClass$l([n$1()],Box.prototype,"name",2);__decorateClass$l([n$1({type:Number})],Box.prototype,"top",2);__decorateClass$l([n$1({type:Number})],Box.prototype,"left",2);__decorateClass$l([n$1({type:Number})],Box.prototype,"width",2);__decorateClass$l([n$1({type:Number})],Box.prototype,"height",2);Box=__decorateClass$l([e$1("wli-box")],Box);var __defProp$k=Object.defineProperty,__getOwnPropDesc$k=Object.getOwnPropertyDescriptor,__decorateClass$k=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$k(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$k(F,W,q),q};let Button=class extends s{render(){return x`
             <button
                 ?disabled=${this.disabled}
             >
@@ -184,14 +184,14 @@ and limitations under the License.
         }
 
         button:hover,
-        button:active {
+        button:focus {
             color: var(--wli-primary);
         }
 
         button:disabled {
             color: #9C9C9C;
         }
-    `;__decorateClass$j([n$1({type:Boolean,attribute:!0})],Button.prototype,"disabled",2);Button=__decorateClass$j([e$1("wli-button")],Button);var __defProp$i=Object.defineProperty,__getOwnPropDesc$i=Object.getOwnPropertyDescriptor,__decorateClass$i=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$i(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$i(F,W,q),q};let Capture=class extends s{render(){return x`
+    `;__decorateClass$k([n$1({type:Boolean,attribute:!0})],Button.prototype,"disabled",2);Button=__decorateClass$k([e$1("wli-button")],Button);var __defProp$j=Object.defineProperty,__getOwnPropDesc$j=Object.getOwnPropertyDescriptor,__decorateClass$j=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$j(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$j(F,W,q),q};let Capture=class extends s{render(){return x`
             <wli-onnx-model
                 uuid=${this.uuid}
                 name=${this.name}
@@ -208,7 +208,67 @@ and limitations under the License.
         `}};Capture.styles=i$3`
         :host {
         }
-    `;__decorateClass$i([n$1({type:String,attribute:!0})],Capture.prototype,"uuid",2);__decorateClass$i([n$1({type:String,attribute:!0})],Capture.prototype,"name",2);__decorateClass$i([n$1({type:String,attribute:!0})],Capture.prototype,"path",2);__decorateClass$i([n$1({type:Array})],Capture.prototype,"classes",2);__decorateClass$i([n$1({type:Number,attribute:!0})],Capture.prototype,"width",2);__decorateClass$i([n$1({type:Number,attribute:!0})],Capture.prototype,"height",2);__decorateClass$i([n$1({type:Object})],Capture.prototype,"options",2);__decorateClass$i([n$1({type:String,attribute:!0})],Capture.prototype,"postProcessing",2);Capture=__decorateClass$i([e$1("wli-capture")],Capture);const thyaTechLogo=""+new URL("logo-name-dark-7f755255.png",import.meta.url).href;var __defProp$h=Object.defineProperty,__getOwnPropDesc$h=Object.getOwnPropertyDescriptor,__decorateClass$h=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$h(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$h(F,W,q),q};let Header=class extends s{render(){return x`
+    `;__decorateClass$j([n$1({type:String,attribute:!0})],Capture.prototype,"uuid",2);__decorateClass$j([n$1({type:String,attribute:!0})],Capture.prototype,"name",2);__decorateClass$j([n$1({type:String,attribute:!0})],Capture.prototype,"path",2);__decorateClass$j([n$1({type:Array})],Capture.prototype,"classes",2);__decorateClass$j([n$1({type:Number,attribute:!0})],Capture.prototype,"width",2);__decorateClass$j([n$1({type:Number,attribute:!0})],Capture.prototype,"height",2);__decorateClass$j([n$1({type:Object})],Capture.prototype,"options",2);__decorateClass$j([n$1({type:String,attribute:!0})],Capture.prototype,"postProcessing",2);Capture=__decorateClass$j([e$1("wli-capture")],Capture);var __defProp$i=Object.defineProperty,__getOwnPropDesc$i=Object.getOwnPropertyDescriptor,__decorateClass$i=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$i(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$i(F,W,q),q};let CircularDynamicLoader=class extends s{render(){return x`
+            <slot></slot>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32"
+                viewBox="0 0 32 32"
+                width="32"
+            >
+                <circle
+                    cx="16"
+                    cy="16"
+                    r="14"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3px"
+                >
+                </circle>
+            </svg>
+        `}};CircularDynamicLoader.styles=i$3`
+        :host {
+            display: block;
+            position: relative;
+            width: 32px;
+            height: 32px;
+        }
+
+        slot {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            width: 32px;
+        }
+
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: var(--wli-primary);
+        }
+
+        circle {
+            stroke-dashoffset: 20;
+            animation: 3s ease-in 0s infinite loading;
+        }
+
+        @keyframes loading {
+            0% {
+                stroke-dasharray: 0 86;
+                stroke-dashoffset: 20;
+            }
+            50% {
+                stroke-dasharray: 86 0;
+                stroke-dashoffset: 20;
+            }
+            100% {
+                stroke-dasharray: 0 86;
+                stroke-dashoffset: 110;
+            }
+        }
+    `;CircularDynamicLoader=__decorateClass$i([e$1("wli-circular-dynamic-loader")],CircularDynamicLoader);const thyaTechLogo=""+new URL("logo-name-dark-7f755255.png",import.meta.url).href;var __defProp$h=Object.defineProperty,__getOwnPropDesc$h=Object.getOwnPropertyDescriptor,__decorateClass$h=(it,F,W,X)=>{for(var q=X>1?void 0:X?__getOwnPropDesc$h(F,W):F,Q=it.length-1,Y;Q>=0;Q--)(Y=it[Q])&&(q=(X?Y(F,W,q):Y(q))||q);return X&&q&&__defProp$h(F,W,q),q};let Header=class extends s{render(){return x`
             <img
                 src="${thyaTechLogo}"
                 alt="Thya Technologie Logo"
@@ -601,6 +661,7 @@ Registered bindings:`,q.forEach(function(Q){var Y="Object";Q.implementationType!
             </li>
         `}renderActionButton(){return this.isInDatabase?x`
                 <wli-button
+                    class="offset-right"
                     @click=${this.handleClick}
                 >
                     <wli-icon name="PlayCircle"></wli-icon>
@@ -609,10 +670,13 @@ Registered bindings:`,q.forEach(function(Q){var Y="Object";Q.implementationType!
                 <wli-button
                     disabled
                 >
-                    <wli-icon name="Downloading"></wli-icon>
+                    <wli-circular-dynamic-loader>
+                        <wli-icon name="Downloading"></wli-icon>
+                    </wli-circular-dynamic-loader>
                 </wli-button>
             `:x`
             <wli-button
+                class="offset-right"
                 ?disabled=${!this.isEnabled}
                 @click=${this.handleDownload}
             >
@@ -636,6 +700,10 @@ Registered bindings:`,q.forEach(function(Q){var Y="Object";Q.implementationType!
 
         .empty {
             flex: 1;
+        }
+
+        .offset-right {
+            margin-right: 4px;
         }
     `;__decorateClass$5([lazyInject(ONNX_MODELS_DATABASE_SERVICE)],OnnxModelItem.prototype,"onnxModelsDbSrv",2);__decorateClass$5([n$1({type:Object})],OnnxModelItem.prototype,"model",2);__decorateClass$5([t()],OnnxModelItem.prototype,"isInDatabase",2);__decorateClass$5([t()],OnnxModelItem.prototype,"isEnabled",2);__decorateClass$5([t()],OnnxModelItem.prototype,"isDownloading",2);OnnxModelItem=__decorateClass$5([e$1("wli-onnx-model-item")],OnnxModelItem);/**
  * MediaStream ImageCapture polyfill
